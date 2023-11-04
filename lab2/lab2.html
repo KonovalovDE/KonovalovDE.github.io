@@ -1,0 +1,120 @@
+<html>
+<head><title>Лабораторная 2</title></head>
+<link rel="stylesheet" href="lab2style.css">
+<body>
+
+
+<header>
+<div class="header-name">My Website</div>
+<a href="#"><img class="header-image"src="image.png"></a>
+<nav>
+<a href="#">Ссылка1</a>
+<a href="#">Ссылка2</a>
+<a href="#">Ссылка3</a>
+</nav>
+
+</header>
+
+<main>
+<h1>Главный контент страницы</h1>
+
+<div class="main-links">
+<h2 >Список гиперсылок</h2>
+<a class="evenNumber"href="#">Нечетная</a>
+<a class="oddNumber"href="#">Четная</a>
+<a class="evenNumber"href="#">Нечетная</a>
+<a class="oddNumber"href="#">Четная</a>
+<a class="evenNumber"href="#">Нечетная</a>
+<a class="oddNumber"href="#">Четная</a>
+<a class="evenNumber"href="#">Нечетная</a>
+<a class="oddNumber"href="#">Четная</a>
+<a class="evenNumber"href="#">Нечетная</a>
+<a class="oddNumber"href="#">Четная</a>
+<a class="evenNumber"href="#">Нечетная</a>
+<a class="oddNumber"href="#">Четная</a>
+<a class="evenNumber"href="#">Нечетная</a>
+<a class="oddNumber"href="#">Четная</a>
+<a class="evenNumber"href="#">Нечетная</a>
+<a class="oddNumber"href="#">Четная</a>
+<a class="evenNumber"href="#">Нечетная</a>
+<a class="oddNumber"href="#">Четная</a>
+<a class="evenNumber"href="#">Нечетная</a>
+<a class="oddNumber"href="#">Четная</a>
+<a class="evenNumber"href="#">Нечетная</a>
+<a class="oddNumber"href="#">Четная</a>
+<a class="evenNumber"href="#">Нечетная</a>
+<a class="oddNumber"href="#">Четная</a>
+<a class="evenNumber"href="#">Нечетная</a>
+</div>
+
+<div class="main-table">
+<h2 >Таблица</h2>
+<table cellpadding="0" cellspacing="0">
+	<tr class="main-table_header">
+		<th>Колонка 1</th>
+		<th>Колонка 2</th>
+		<th>Колонка 3</th>
+		<th>Колонка 4</th>
+		<th>Колонка 5</th>
+		<th>Колонка 6</th>
+		<th>Колонка 7</th>
+	</tr>
+	
+	<tr class="main-table_row_even">
+		
+		<td>Проверка поведения если текст не помещается в ячейку</td>
+		<td>Ячейка 1_2</td>
+		<td>Ячейка 1_3</td>
+		<td>Ячейка 1_4</td>
+		<td>Ячейка 1_5</td>
+		<td>Ячейка 1_6</td>
+		<td class="main-table_col_last" rowspan="1">Входные данные</td>
+	</tr>
+	
+	<tr class="main-table_row_odd">
+		<td colspan="3">Ячейка 2_1&2_3</td>
+		<td colspan="3" >Ячейка 2_4&2_6</td>
+		<td class="main-table_col_last" rowspan="3">Алгоритм</td>
+	</tr>
+	
+	<tr class="main-table_row_even">
+		<td colspan="2">Ячейка 3_1&3_2</td>
+		<td colspan="2">Ячейка 3_3&3_4</td>
+		<td colspan="2">Ячейка 3_5&3_6</td>
+	</tr>
+	
+	<tr class="main-table_row_odd">
+		<td colspan="4">Ячейка 4_1&4_4</td>
+		<td colspan="2">Ячейка 4_5&4_6</td>
+	</tr>
+	<tr class="main-table_row_even">
+		<td colspan="6">Ячейка 5_1</td>
+		<td class="main-table_col_last">Результат</td>
+	</tr>
+</table>	
+</div>
+
+<div class="main-form">
+<h2 >Форма</h2>
+<form>
+<table class="main-form-table">
+	<tr><label> <td style="text-align:right">Логин</td>  <td><input class="text-input" type="text" placeholder="Введите логин" name="form-login"/></label></td></tr>
+	<tr><label> <td style="text-align:right">Пароль</td> <td><input class="text-input" type="password" placeholder="Введите пароль" name="form-password"/></label></td></tr>
+	<tr><td colspan="2"><label> Запомнить данные <input type="checkbox" name="form-rememberLoginData"/></td></tr>
+<tr>
+	<td colspan="2" style="text-align:center;"><input class="form-submit" type="submit" value="Вход"/></td>
+</tr>
+</table>
+</form>
+
+</div>
+
+</main>
+
+<footer>
+<h1>This is a footer</h1>
+</footer>
+
+</body>
+
+</html>

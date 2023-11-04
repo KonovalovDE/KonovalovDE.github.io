@@ -1,0 +1,58 @@
+
+/* general sizing and styling */
+body
+{background-color:#15181f;}
+
+main, header, footer{
+	max-width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:1em;
+	background-color:#f5f5f5;
+	border:solid;
+	border-radius:40px;
+	text-align:center;}
+	
+body a:hover{color:#7a232c;}
+body a:active{color:red;}
+body a{text-decoration:none; color:black;}
+
+
+/* style of menu and header */
+header{height:70px;}
+.header-image{float:left;height:100%;border-radius:40px}
+header .header-name{display:inline;font-size:30px;}
+nav{padding:0px;margin:0px;}
+nav a:hover{background-color:#f0e9e9;}
+
+
+/* Style of links in main */
+.main-links a {display:block;width:40%;margin:auto;text-decoration:none;color:black;font-size:18px;}	
+.main-links a.oddNumber{background-color:#bac9de;}
+.main-links a.evenNumber{background-color:#a5b1c2;}
+
+/* Style of table in main */
+.main-table td, .main-table tr{border:solid;border-width:thin;padding:0.5em;margin:0px;text-align:center;}
+.main-table{margin-left:auto;margin-right:auto;max-width:70%;}
+.main-table table{table-layout:fixed;width:100%;overflow-wrap:break-word;}
+.main-table .main-table_row_even{background-color:#9bcfb1;}
+.main-table .main-table_row_odd{background-color:#8cbfa2;}
+.main-table .main-table_col_last{background-color:#91c2a7;}
+
+/*Form style*/
+.main-form .text-input
+{
+border-radius:20px;
+background-color:black;
+color:white;
+}
+.main-form .text-input::placeholder{color:white;}
+.main-form .form-submit
+{
+ background-color:#8eed95;
+ border:none;
+ border-radius:20px;
+ width:75px;
+ height:20px;
+}
+.main-form-table{margin:auto;}
