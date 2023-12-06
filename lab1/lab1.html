@@ -1,0 +1,113 @@
+<html>
+<head><title>Лабораторная 1</title>
+<style>
+    body{font-size:24px;}
+</style>
+</head>
+<body>
+    
+    <ul>
+     <li><a href="http://kubsu.ru">Абсолютная ссылка на сайт КубГУ</a><br></li>
+     <li> <a href="https://kubsu.ru">Абсолютная ссылка на сайт КубГУ в протоколе https</a><br></li>
+     <li> <a href="#"><img src="kot.png" id="kot" alt="kot" width="200px" height="200px"></a><br></li>
+     <li> <a href="/lab2/lab2.html">Сокращенная ссылка на внутренюю страницу</a><br></li>
+     <li> <a href="/index.html">Сокращенная ссылка на главную страницу</a><br></li>
+     <li> <a href="#kot">Ссылка на фрагмент текущей страницы</a><br></li>
+     <li> <a href="/index.html?id=2">ссылку с параметром id в URL</a> <br></li>
+     <li> <a href="page.html">относительную на страницу в текущем каталоге;</a><br></li>
+     <li> <a href="about/page.html">относительную на страницу в каталоге about; </a><br></li>
+     <li> <a href="../page.html">относительную на страницу в каталоге уровнем выше текущего; </a><br></li>
+     <li> <a href="../../page.html">относительную на страницу в каталоге двумя уровнями выше; </a><br></li>
+     <li> контекстную в <a href="#">тексте</a> абзаца; <br></li>
+     <li> <a href="https://ru.wikipedia.org/wiki/Хоробут#t-print">ссылку на фрагмент страницы стороннего сайта; </a><br></li>
+     <li> <a>ссылки из прямоугольных и круглых областей картинки (HTML-тег map); </a><br>
+        <map name="infographic">
+            <area
+              shape="rect"
+              coords="0,0,219,143"
+              href="https://www.anekdot.ru/id/1428384/"
+              target="_blank"
+              alt="HTTP" />
+              <area
+              shape="rect"
+              coords="0,145,222,357"
+              href="https://www.anekdot.ru/id/1428386/"
+              target="_blank"
+              alt="HTTP" />
+              <area
+              shape="rect"
+              coords="229,0,554,140"
+              href="https://www.anekdot.ru/id/1409656/"
+              target="_blank"
+              alt="HTTP" />
+              <area
+              shape="rect"
+              coords="230,149,357,357"
+              href="https://www.anekdot.ru/id/1242268/"
+              target="_blank"
+              alt="HTTP" />
+              <area
+              shape="circle"
+              coords="462,251,60"
+              href="https://www.anekdot.ru/id/1119767/"
+              target="_blank"
+              alt="HTTP" /> 
+          </map>
+          <img usemap="#infographic" src="nekot.png" alt="MDN infographic" />
+    </li>
+     <li> <a href="">ссылку с пустым href; </a><br></li>
+     <li> <a>ссылку без href; </a><br></li>
+     <li> <a href="../index.html" rel="nofollow">ссылку, по которой запрещен переход поисковикам; </a><br></li>
+     <li> <noindex><a href="#">ссылка запрещенная для индексации поисковиками</a></noindex> <br></li>
+     <li> 
+        <ol>
+            <li title="Лабораторная 1">
+                <a href="../lab1/lab1.html">Лабораторная 1</a>
+            </li>
+            <li title="Лабораторная 2">
+                <a href="../lab2/lab2.html">Лабораторная 2</a>
+            </li> 
+            <li title="Лабораторная 3">
+                <a href="../lab3/lab3.html">Лабораторная 3</a>
+            </li> 
+            <li title="Лабораторная 4">
+                <a href="../lab4/lab4.html">Лабораторная 4</a>
+            </li>
+            <li title="Лабораторная 5">
+                <a href="../lab5/lab5.html">Лабораторная 5</a>
+            </li>
+            <li title="Лабораторная 6">
+                <a href="../lab6/lab6.html">Лабораторная 6</a>
+            </li>
+        </ol>
+    </li>
+    
+    <li> <a href="ftp://anonymous@ftp.ed.ac.uk/pub/utopia/roger.bmp">ссылку на файл на сервере FTP с авторизацией;</a></li>
+</ul>
+<div><br>
+    Форма<br>
+<form onsubmit="alert('Ураа')">
+    <input placeholder="ФИО"/><br>
+    <input type="tel" placeholder="+7-ХХХ-ХХХ-ХХ-ХХ"/><br>
+    <input type="email" placeholder="example@yahoo.com"/><br>
+    <input type="date"/><br>
+    <label></label><input type="radio" value="1" name ="gender"/>Женский</label>
+    <label></label><input type="radio" value="2" name ="gender"/>Мужской</label><br>
+    <select multiple>
+        <option value="1">Python</option>
+        <option value="2">Perl</option>
+        <option value="3">scheme</option>
+        <option value="3">php</option>
+    </select><br>
+    <textarea name="autobiography"></textarea><br>
+    <input type="checkbox" name="tos"/>Я прочитал и согласен с условиями<br>
+    <input type="submit"/>
+
+</form>
+</div>
+
+<br><div style="font-size:24px;"><a href="../index.html">На главную</a></div>
+</body>
+   
+
+</html>

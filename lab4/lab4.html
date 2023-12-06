@@ -1,0 +1,99 @@
+<html>
+<head><title>Лабораторная 4</title></head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<body>
+
+<header class="container header">
+<div class="row">
+
+<div class="col-md-12 col-lg-6 test">
+<div class="row header-name_image">
+<a href="#"><img class="header-image"src="image.png"></a>
+<div class="header-name"><a href="../index.html">Коновалов Д.Е</a></div>
+</div>
+</div>
+
+<nav class="col-md-12 col-lg-6">
+<div class="d-flex flex-column justify-content-center align-items-center">
+<a href="#">Ссылка1</a>
+<a href="#">Ссылка2</a>
+<a href="#">Ссылка3</a>
+<a href="#">Ссылка4</a>
+</div>
+</nav>
+</div>
+</header>
+
+<main class="container main">
+    <div class="main-links">
+        <h2 >Список гиперсылок</h2>
+        <a class="evenNumber"href="#">Нечетная</a>
+        <a class="oddNumber"href="#">Четная</a>
+        <a class="evenNumber"href="#">Нечетная</a>
+        <a class="oddNumber"href="#">Четная</a>
+        </div>
+        
+        <div class="main-table">
+        <h2 >Таблица</h2>
+        <table cellpadding="0" cellspacing="0">
+            <tr class="main-table_row_even">
+                
+                <td>Проверка поведения если текст не помещается в ячейку</td>
+                <td>Ячейка 1_2</td>
+                <td>Ячейка 1_3</td>
+                <td>Ячейка 1_4</td>
+                <td>Ячейка 1_5</td>
+                <td>Ячейка 1_6</td>
+                <td class="main-table_col_last" rowspan="1">Входные данные</td>
+            </tr>
+            
+            <tr class="main-table_row_odd">
+                <td colspan="3">Ячейка 2_1&2_3</td>
+                <td colspan="3" >Ячейка 2_4&2_6</td>
+                <td class="main-table_col_last" rowspan="3">Алгоритм</td>
+            </tr>
+            
+            <tr class="main-table_row_even">
+                <td colspan="2">Ячейка 3_1&3_2</td>
+                <td colspan="2">Ячейка 3_3&3_4</td>
+                <td colspan="2">Ячейка 3_5&3_6</td>
+            </tr>
+            
+            <tr class="main-table_row_odd">
+                <td colspan="4">Ячейка 4_1&4_4</td>
+                <td colspan="2">Ячейка 4_5&4_6</td>
+            </tr>
+            <tr class="main-table_row_even">
+                <td colspan="6">Ячейка 5_1</td>
+                <td class="main-table_col_last">Результат</td>
+            </tr>
+        </table>	
+        </div>
+        
+        <div class="main-form">
+        <h2 >Форма</h2>
+        <form>
+        <table class="main-form-table">
+            <tr><label> <td style="text-align:right">Логин</td>  <td><input class="text-input" type="text" placeholder="Введите логин" name="form-login"/></label></td></tr>
+            <tr><label> <td style="text-align:right">Пароль</td> <td><input class="text-input" type="password" placeholder="Введите пароль" name="form-password"/></label></td></tr>
+            <tr><td colspan="2"><label> Запомнить данные <input type="checkbox" name="form-rememberLoginData"/></td></tr>
+        <tr>
+            <td colspan="2" style="text-align:center;"><input class="form-submit" type="submit" value="Вход"/></td>
+        </tr>
+        </table>
+        </form>
+        
+</main>
+
+<footer class="container footer">
+<h3>This is a footer</h3>
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+body{background-color:#15181f;}
+body a:hover{color:#7a232c;}
+body a:active{color:red;}
+body a{text-decoration:none; color:#15181f;}
+.container.main, .container.footer{border:solid;border-radius:30px;background-color:#f5f5f5;}{border:solid;border-radius:30px; background-color:#f5f5f5;}
+nav{border:solid;border-radius:30px;background-color:#f5f5f5;}
+.header-name_image{border:solid;border-radius:30px;background-color:#f5f5f5;}
+@media (min-width: 992px) 
+{
+.container.header{border:solid;border-radius:30px; background-color:#f5f5f5;}
+nav{border:none;border-radius:0 30px 30px 0;}
+.header-name_image{border:none; border-radius:30px 0 0 30px}
+}
+
+
+
+
+/* 
+***********************************
+	universally-applied styling 
+***********************************
+*/
+
+/* style of menu and header */
+
+.header-image{float:left;height:100%;border-radius:30px;}
+header .header-name{display:inline;font-size:30px;} 
+nav{padding:0px;margin:0px;}
+nav a:hover{background-color:#f0e9e9;}
+
+
+/* Style of table in main */
+.main-table table{table-layout:fixed;overflow-wrap:break-word;}
+.main-table{flex-direction:column;display:flex;align-items:center;} /*flex parameters are the same between mobile and PC */
+.main-table td, .main-table tr{border:solid;border-width:thin;padding:0.5em;margin:0px;text-align:center;}
+.main-table .main-table_row_even{background-color:#9bcfb1;}
+.main-table .main-table_row_odd{background-color:#8cbfa2;}
+.main-table .main-table_col_last{background-color:#91c2a7;}
+
+
+/* Style of links in main */
+.main-links{flex-direction:column; display:flex; align-items:center;} /*flex parameters are the same between mobile and PC */
+.main-links a {display:block;width:40%;text-decoration:none;color:black;font-size:18px;}	
+.main-links a.oddNumber{background-color:#bac9de;}
+.main-links a.evenNumber{background-color:#a5b1c2;}
+
+
+/*Form style*/
+.main-form .text-input
+{
+border-radius:20px;
+background-color:black;
+color:white;
+}
+.main-form .text-input::placeholder{color:white;}
+.main-form {flex-direction:column;display:flex; align-items:center;}
+.main-form .form-submit
+{
+ background-color:#8eed95;
+ border:none;
+ border-radius:20px;
+ width:75px;
+ height:20px;
+}
+.header-image{border-radius:30px;}

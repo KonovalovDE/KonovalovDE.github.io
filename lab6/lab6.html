@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Лабораторная 6</title>
+    <script src="lab6.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  </head>
+  <body>
+  
+  <div id="formDiv"></div>
+  Заказ праздника
+  <form>
+    <label>Первое блюдо
+		<select name="FirstDish">
+          <option value=1>Борщ 2$</option>
+          <option value=2>Куринный суп 2$</option>
+          <option value=3>Лагман 3$</option>
+        </select>
+	</label><br>Количество: <input name="FirstDishQuantity" class="textbox" value=10></input><br><br>
+	<label>Второе блюдо
+		<select name="SecondDish">
+          <option value=1>Котлетки с макарошками 2$</option>
+          <option value=2>Котлетки с пюрешкой 2$</option>
+        </select>
+	</label><br>Количество: <input name="SecondDishQuantity" class="textbox" value=10></input><br><br>
+	<label>Десерт
+		<select name="Desert">
+          <option value=1>Кусочек торта 1$</option>
+          <option value=2>Макарун 1$</option>
+          <option value=3>Круассан 1$</option>
+    </select>
+	</label><br>Количество: <input name="DesertQuantity" class="textbox" value=10></input><br><br>
+	<label>Напиток
+		<select name="Drink">
+          <option value=1>Чай 1$</option>
+          <option value=2>Кофе 3$</option>
+          <option value=3>Добрый Cola 2$</option>
+        </select>
+	</label><br>Количество: <input name="DrinkQuantity" class="textbox" value=10></input><br><br>
+    <div>Развлечения от ресторана: </div></div><select name="prodType">
+      <option value="1">Музыканты</option>
+      <option value="2">Клоуны</option>
+      <option value="3">Ведущий конкурсов</option>
+    </select>
+    <div id="radios">
+      <label id="radio_1"><input type="radio" name="prodOptions" value="option1">Конкурс анекдотов</label>
+      <label id="radio_2"><input type="radio" name="prodOptions" value="option2">Чемпионат по дартсу 501</label>
+      <label id="radio_3"><input type="radio" name="prodOptions" value="option3">Квиз славянской мифологии</label>
+    </div>
+    <div id="checkboxes">
+      <label><input type="checkbox"  name="prop1">Только аккредитированные специалисты</label>
+    </div><br>
+    <label>Количество артистов <input name="entertainmentQuantity" class="textbox" value=3></input></label>
+  </form>
+  <div id="prodPrice"></div>
+  <br><div style="font-size:24px;"><a href="../index.html">На главную</a></div>
+  </body>
+</html>
