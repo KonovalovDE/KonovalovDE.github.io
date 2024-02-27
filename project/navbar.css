@@ -1,0 +1,90 @@
+@media all and (max-width: 992px) {
+    
+	.navbar .nav-item .dropdown-menu{ display: none; }
+    .navbar .nav-item .dropdown-menu1{ display: none; }
+	.navbar .nav-item:hover .nav-link{ 
+        color:#e14830;
+      }
+	.navbar .nav-item:hover .dropdown-menu{ display: block;
+        background-color: #000000;
+        color:#e14830; }
+        .navbar .nav-item:hover .dropdown-item{ display: block;
+            background-color: #000000;
+        color:white; }
+        .navbar .nav-item:hover .dropdown-item:hover{ 
+            display: block;
+            color:#e14830;}
+        
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+
+    .navbar .nav-item:hover .dropdown-menu1{ display: block;
+        background-color: #000000;
+        color:#e14830; }
+        .navbar .nav-item:hover .dropdown-item1{ display: block;
+            background-color: #000000;
+        color:white; }
+        .navbar .nav-item:hover .dropdown-item1:hover{ 
+            display: block;
+            color:#e14830;}
+        
+	.navbar .nav-item .dropdown-menu1{ margin-top:0; }
+
+    
+}	
+@media all and (min-width: 992px) {
+    .nav-item:hover
+{
+    text-decoration:underline;
+    text-decoration-color:#f14d34;
+    text-decoration-thickness: 2px;
+}
+    
+	.navbar .nav-item .dropdown-menu{ display: none; }
+    .navbar .nav-item .dropdown-menu1{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+
+	.navbar .nav-item:hover .dropdown-menu{ display: block;
+        background-color: #f04d35;
+        color:white; }
+        .navbar .nav-item:hover .dropdown-item{ display: block;
+            background-color: #f04d35;
+        color:white; }
+        .navbar .nav-item:hover .dropdown-item:hover{ 
+            display: block;
+            background-color: #d13018;
+        color:white; }
+
+	.navbar .nav-item .dropdown-menu1{ margin-top:0; }
+    .navbar .nav-item:hover .dropdown-menu1{ display: block;
+        background-color: #f04d35;
+        color:white; }
+        .navbar .nav-item:hover .dropdown-item1{ display: block;
+            background-color: #f04d35;
+        color:white; }
+        .navbar .nav-item:hover .dropdown-item1:hover{ 
+            display: block;
+            background-color: #d13018;
+        color:white; }
+	.navbar .nav-item .dropdown-menu1{ margin-top:0; }
+    
+    
+}	
+.nav-link
+{
+    color:red;
+}
+@media (max-width: 992px) {
+    .navbar {
+        background-color: #000000;
+        position:fixed;
+        bottom:0;
+        width:100%;
+    }
+   
+
+}
+.nav-item, .dropdown-item
+{font-size:14px;}
+
+
+

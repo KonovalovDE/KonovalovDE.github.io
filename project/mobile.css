@@ -1,0 +1,42 @@
+@media (max-width: 992px) 
+{
+    #p1,#p3
+    {
+        text-align:center;
+        font-size:24px;
+    }
+    #p2,#p4
+    {
+        text-align:center;
+        font-size:16px;
+    }
+    .first
+    {
+        text-align:center;
+    }
+    .fifthblock
+    {
+        background-image: url("img/background2.png");
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    .review_cards
+{
+    border-bottom:1px solid;
+    padding-left:0;
+}
+.review_row
+{
+    padding:30px 30px 30px 30px;
+}
+    .img_recent_2
+    {
+        height:240px;
+    }
+    .img_recent_1
+    {
+        height:140px;
+        object-fit:cover;
+    }
+
+}
